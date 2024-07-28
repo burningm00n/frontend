@@ -1,0 +1,33 @@
+/* variable */
+:root{
+    --primary: rgb(233, 185, 81);
+    --secondary: rgb(153, 102, 9);
+    --accent: purple;
+    --accent2: rgb(250, 211, 218);
+    font-size: 1.125rem;
+}
+
+body{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+h1{
+    font-weight: 800;
+    font-family: sans-serif
+}
+
+h2{
+    font-weight: 700;
+    font-family: sans-serif
+}
+
+h3{
+    font-weight: 600;
+    font-family: sans-serif
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(228, 225, 225);
+}

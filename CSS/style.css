@@ -1,0 +1,83 @@
+/* base style */
+/* .body-flex-container{
+    display: flex;
+    flex-direction: column;
+} */
+
+.title-image img{
+    width: 100%;
+}
+
+.main-flex-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.title-headings .headings{
+    color: black;
+    /* margin: 0 0 20px; */
+}
+
+.section-flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.prep{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var( --accent2);
+    margin: 20px 0;
+}
+.prep .headings{
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+ul, ol{
+    padding-left: 30px;
+}
+
+.prep ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.prep li::marker{
+    color: var(--accent);
+}
+
+.headings{
+    color: var(--secondary);
+}
+
+.section-flex-container .listings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listings li::marker{
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+.nutrients-table-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrients-inner-flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nutrients-values{
+    color: var(--secondary);
+    font-weight: 700;
+}
+/* fonts */
